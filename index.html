@@ -1,175 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>BrainTech Solutions</title>
-  <link rel="icon" href="src/assets/logo.jpeg">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrainTech Solutions</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="src/assets/logo.jpeg">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
 </head>
+
+<body>
+
+<!-- LOADER -->
 <div id="loader">
   <div class="spinner"></div>
 </div>
-<body>
-  <div id="particles-js"></div>
-  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 
-<!-- NAVBAR -->
+<!-- PARTICLES -->
+<div id="particles-js"></div>
+
+<!-- HEADER -->
 <header>
   <div class="logo">BrainTech</div>
+
   <nav>
-    <a href="#Home">Home</a>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#pricing">Pricing</a>
+    <a href="#testimonials">Reviews</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
-<!-- HERO SECTION -->
-<section class="hero">
+<!-- HERO -->
+<section id="home" class="hero reveal">
+
   <div class="hero-text">
-    <h1>We Create High-Converting <br> Startup Websites</h1><span id="typing"></span>
-    <p>Professional SaaS, Business & Startup Websites That Drive Results.</p>
+    <h1>
+      We Create Powerful <br>
+      Startup Websites
+    </h1>
+
+    <h2 id="typing"></h2>
+
+    <p>
+      Professional SaaS, Business & Startup Websites
+      That Drive Real Results.
+    </p>
+
     <div class="hero-buttons">
-      <button class="primary">View Portfolio</button>
-
-
-      <button class="secondary">Start Your Project</button>
+      <button>View Portfolio</button>
+      <button class="secondary">Start Project</button>
     </div>
   </div>
 
   <div class="hero-image">
-    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="Tech">
+    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+    alt="Technology">
   </div>
+
 </section>
 
-<section>
- 
- <center> 
-<h2>My Portfolio</h2>
+<!-- ABOUT -->
+<section id="about" class="about reveal">
 
-<div class="portfolio-container">
+<h2>About BrainTech</h2>
 
-<div class="profile">
-<img src="src/assets/ranjith.jpg" alt="Ranjith">
-<h3>Ranjith Kumar R</h3>
-<p>Full Stack Developer & Startup Founder</p>
-<p>personal contact : 9345611492</p>
-<p style="color:#aaa;font: size 5px;">
-Passionate about building scalable SaaS platforms and AI solutions.
+<p>
+BrainTech Solutions helps startups and businesses
+build modern, high-converting websites with premium
+UI/UX design, SEO optimization, and scalable solutions.
 </p>
+
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio reveal">
+
+<h2>Founder Portfolio</h2>
+
+<div class="profile-card">
+
+<img src="src/assets/ranjith.jpg" alt="Ranjith">
+
+<h3>Ranjith Kumar R</h3>
+
+<p>Full Stack Developer & Startup Founder</p>
+
+<p>
+Passionate about building scalable SaaS platforms,
+AI tools and startup solutions.
+</p>
+
+<p>📞 9345611492</p>
+
 </div>
-</center>  
 
+</section>
 
-<!-- WHY CHOOSE US -->
-<section class="features">
-  <h2>Why Choose BrainTech</h2>
-  <div class="feature-container">
-    <div class="feature-card">
-      <h3>SEO Optimized</h3>
-      <p>Rank higher in Google search results.</p>
-    </div>
-    <div class="feature-card">
-      <h3>Fast Delivery</h3>
-      <p>Launch your website in just few days.</p>
-    </div>
-    <div class="feature-card">
-      <h3>Mobile Responsive</h3>
-      <p>Perfect experience on all devices.</p>
-    </div>
-    <div class="feature-card">
-      <h3>Custom Solutions</h3>
-      <p>Tailored specifically for your needs.</p>
-    </div>
-  </div>
+<!-- FEATURES -->
+<section class="features reveal">
+
+<h2>Why Choose BrainTech</h2>
+
+<div class="feature-container">
+
+<div class="feature-card">
+<i class="fa-solid fa-magnifying-glass-chart"></i>
+<h3>SEO Optimized</h3>
+<p>Rank higher in Google search results.</p>
+</div>
+
+<div class="feature-card">
+<i class="fa-solid fa-bolt"></i>
+<h3>Fast Delivery</h3>
+<p>Launch your website in few days.</p>
+</div>
+
+<div class="feature-card">
+<i class="fa-solid fa-mobile-screen"></i>
+<h3>Responsive Design</h3>
+<p>Perfect on all devices.</p>
+</div>
+
+<div class="feature-card">
+<i class="fa-solid fa-layer-group"></i>
+<h3>Custom Solutions</h3>
+<p>Tailored for your business needs.</p>
+</div>
+
+</div>
+
 </section>
 
 <!-- SERVICES -->
-<section id="services" class="services">
-  <h2>Our Specialized Services</h2>
-  <div class="service-grid">
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
-      <h3>Landing Page Websites</h3>
-      <p>Convert visitors into buyers.</p>
-    </div>
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
-      <h3>Startup Landing Pages</h3>
-      <p>Tell your startup story beautifully.</p>
-    </div>
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
-      <h3>Event Websites</h3>
-      <p>Boost registrations and engagement.</p>
-    </div>
-  </div>
+<section id="services" class="services reveal">
+
+<h2>Our Services</h2>
+
+<div class="service-grid">
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+<h3>Landing Page Websites</h3>
+<p>Convert visitors into customers.</p>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+<h3>Startup Websites</h3>
+<p>Professional startup brand websites.</p>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+<h3>Business Websites</h3>
+<p>Grow your online business presence.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- STATS -->
+<section class="stats reveal">
+
+<div class="stat-box">
+<h2>50+</h2>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat-box">
+<h2>20+</h2>
+<p>Happy Clients</p>
+</div>
+
+<div class="stat-box">
+<h2>99%</h2>
+<p>Client Satisfaction</p>
+</div>
+
 </section>
 
 <!-- PRICING -->
-<section id="pricing" class="pricing">
-  <h2>Choose Your Plan</h2>
-  <div class="pricing-grid">
-
-    <div class="price-card">
-      <h3>Starter</h3>
-      <h2>₹9,999</h2>
-      <p>✔ 1 Page Website</p>
-      <p>✔ Ready in 3 Days</p>
-      <p>✔ Basic SEO</p>
-      <button>Select Plan</button>
-    </div>
-
-    <div class="price-card popular">
-      <h3>Professional</h3>
-      <h2>₹24,999</h2>
-      <p>✔ Up to 5 Pages</p>
-      <p>✔ Advanced SEO</p>
-      <p>✔ Custom Design</p>
-      <button>Select Plan</button>
-    </div>
-
-    <div class="price-card">
-      <h3>Premium</h3>
-      <h2>₹49,999</h2>
-      <p>✔ Custom Development</p>
-      <p>✔ Admin Panel</p>
-      <p>✔ Priority Support</p>
-      <button>Select Plan</button>
-    </div>
-  </div>
-</section>
-
-<section class="features reveal">
-<section id="services" class="services reveal">
 <section id="pricing" class="pricing reveal">
 
-<center>
-<div class="direct-contact">
-    <h3>Or Contact Me Directly</h3>
+<h2>Pricing Plans</h2>
 
-    <p>
-        📧 Email: 
-        <a href="mailto:braintech2026s@gmail.com">
-            braintech2026s@gmail.com
-        </a>
-    </p>
+<div class="pricing-grid">
 
-    <p>
-        💼 LinkedIn: 
-        <a href="https://www.linkedin.com/in/braintech-2026s" target="_blank">
-            Visit My LinkedIn
-        </a>
-    </p>
+<div class="price-card">
+<h3>Starter</h3>
+<h2>₹9,999</h2>
+
+<p>✔ 1 Page Website</p>
+<p>✔ Basic SEO</p>
+<p>✔ 3 Days Delivery</p>
+
+<button>Select Plan</button>
 </div>
-</center>
 
+<div class="price-card popular">
+<h3>Professional</h3>
+<h2>₹24,999</h2>
 
+<p>✔ 5 Pages Website</p>
+<p>✔ Advanced SEO</p>
+<p>✔ Premium Design</p>
+
+<button>Select Plan</button>
+</div>
+
+<div class="price-card">
+<h3>Premium</h3>
+<h2>₹49,999</h2>
+
+<p>✔ Custom Development</p>
+<p>✔ Admin Panel</p>
+<p>✔ Priority Support</p>
+
+<button>Select Plan</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="testimonials reveal">
+
+<h2>Client Reviews</h2>
+
+<div class="testimonial-card">
+<p>
+"BrainTech created an amazing website for my business.
+Very professional service."
+</p>
+<h4>- Arun Kumar</h4>
+</div>
+
+<div class="testimonial-card">
+<p>
+"Fast delivery and premium design quality.
+Highly recommended."
+</p>
+<h4>- Priya</h4>
+</div>
+
+</section>
+
+<!-- FAQ -->
+<section class="faq reveal">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>How many days to complete?</h3>
+<p>Usually 3 to 7 working days.</p>
+</div>
+
+<div class="faq-item">
+<h3>Do you provide hosting?</h3>
+<p>Yes, hosting and domain support available.</p>
+</div>
+
+<div class="faq-item">
+<h3>Will website be mobile responsive?</h3>
+<p>Yes, fully responsive on all devices.</p>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact reveal">
+
+<h2>Contact Us</h2>
+
+<p class="subtitle">
+Let's build your dream website 🚀
+</p>
+
+<form>
+
+<div class="input-group">
+<input type="text" placeholder="Your Name" required>
+</div>
+
+<div class="input-group">
+<input type="email" placeholder="Your Email" required>
+</div>
+
+<div class="input-group">
+<select>
+<option>Select Service</option>
+<option>Landing Page</option>
+<option>Business Website</option>
+<option>Portfolio Website</option>
+<option>Custom Development</option>
+</select>
+</div>
+
+<div class="input-group">
+<textarea rows="5"
+placeholder="Your Message"></textarea>
+</div>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+<div class="direct-contact">
+
+<h3>Direct Contact</h3>
+
+<p>
+📧 braintech2026s@gmail.com
+</p>
+
+<p>
+📞 +91 9345611492
+</p>
+
+<p>
+💼 LinkedIn:
+<a href="https://www.linkedin.com/in/braintech-2026s"
+target="_blank">
+Visit Profile
+</a>
+</p>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
 <footer>
-  © 2026 BrainTech Solutions | Innovate. Build. Scale.
+
+<h2>BrainTech Solutions</h2>
+
+<p>
+Innovate. Build. Scale.
+</p>
+
+<div class="social-icons">
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+
+</div>
+
+<p class="copyright">
+© 2026 BrainTech Solutions. All Rights Reserved.
+</p>
+
 </footer>
 
+<!-- WHATSAPP FLOAT BUTTON -->
+<a href="https://wa.me/919345611492"
+class="whatsapp-float"
+target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
 <script src="script.js"></script>
+
 </body>
 </html>
